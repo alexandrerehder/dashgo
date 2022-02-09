@@ -1,9 +1,13 @@
+import { AppProps } from 'next/app';
+import { ChakraProvider } from '@chakra-ui/react';
+import { theme } from '../styles/theme';
 
-
-export default function Home() {
+function MyApp({ Component, pageProps }) {
   return (
-    <h1>
-      Dashgo
-    </h1>
-  )
+    <ChakraProvider theme={theme}>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
 }
+
+export default MyApp;
