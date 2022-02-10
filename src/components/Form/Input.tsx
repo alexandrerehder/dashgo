@@ -10,7 +10,7 @@ interface InputProps extends ChackraInputProps {
   label?: string;
 }
 
-export function Input({ name, label }: InputProps) {
+export function Input({ name, label, ...rest }: InputProps) {
   return (
     <FormControl>
       {!!label && <FormLabel htmlFor={name}>{label}</FormLabel>}
@@ -26,6 +26,7 @@ export function Input({ name, label }: InputProps) {
           bgColor: 'gray.900',
         }}
         size="lg"
+        {...rest}
       />
     </FormControl>
   );
