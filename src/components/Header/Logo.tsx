@@ -9,6 +9,7 @@ export function Logo() {
         fontWeight="bold"
         letterSpacing="tight"
         w="64"
+        style={{ cursor: 'pointer' }}
       >
         dashgo
         <Text as="span" ml="1" color="pink.500">
