@@ -13,7 +13,7 @@
 
 ## 💻 Interface Web
 <p align="center">
-    <img width="800" height="500" style="border-radius: 10px" src="./public/assets/interfaceweb.png" alt="Web">
+    <img width="1918" height="444" style="border-radius: 10px" src="./public/assets/interfaceweb.png" alt="Web">
 </p>
 
 ## 🛠 Tecnologias
