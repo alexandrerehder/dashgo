@@ -36,7 +36,7 @@ Antes de começar, é preciso ter instalado em sua máquina as seguintes ferrame
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alexandrerehder/dashgo
+$ git clone https://github.com/alexandrerehder/dashgo
 
 # Acesse a pasta do projeto, instale as dependências e inicie a aplicação
 $ cd dashgo && yarn && yarn dev
